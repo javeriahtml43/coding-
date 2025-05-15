@@ -1,0 +1,25 @@
+
+/*
+
+1 2 3 4
+1 2 3
+1 2
+1
+
+
+*/ 
+
+#include <iostream>
+using namespace std;
+int main()
+{ 
+    for(int j=4;j>=1;j--)
+    {
+        for(int m=1;m<=j;m++)
+        {
+        cout<<m<<" ";
+    }
+    cout<<endl;
+} 
+    return 0 ;
+} 
