@@ -12,7 +12,6 @@
 
 
 #include<iostream>
-#include <iomanip> 
 using namespace std;
 int main()
 {
@@ -20,9 +19,8 @@ int main()
      {
         for(int m=1;m<=j;m++)
         {
-           cout<<"* ";
+           cout<<"*"<<" " ;
            }
-           cout<<setw(1); 
            cout<<endl;
     }
     return 0;
