@@ -1,0 +1,22 @@
+/* 
+	2
+	2 4
+	2 4 6
+	2 4 6 8
+
+    */
+
+#include <iostream>
+using namespace std;
+int main()
+{ 
+    for(int j=1;j<=4;j++)
+    {
+        for(int m=1;m<=j;m++)
+        {
+            cout<< 2*m <<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+} 
