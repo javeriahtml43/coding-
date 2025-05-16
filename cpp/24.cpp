@@ -1,0 +1,35 @@
+/* 
+	*
+	**
+	***
+	****
+	***
+	**
+    *
+	
+*/ 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    // top
+    for(int j=1;j<=4;j++)
+    {
+        for(int m=1;m<=j;m++)
+        {
+        cout<<"*";
+         }
+       cout<<endl;
+       }
+       
+       //bottom 
+        for(int j=3;j>=1;j--)
+    {
+        for(int m=1;m<=j;m++)
+        {
+        cout<<"*";
+         }
+       cout<<endl;
+       }
+ }
