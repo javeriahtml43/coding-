@@ -1,0 +1,66 @@
+
+/*
+
+	   *   
+	  * *  
+	 *   * 
+	*     *
+	 *   * 
+	  * *  
+	   *   
+  
+  
+  */
+
+   
+ #include<iostream>
+using namespace std;
+int main() 
+ {
+   
+    // top
+   for (int i = 1; i <= 4; i++)
+    {
+        for (int s = 4; s >= i; s--)
+        {
+            cout<<" ";
+        }
+        for (int j = 1; j <= 2*i-1 ; j++)
+        {
+            if (j==1  || j== 2*i-1)
+            {
+                cout<<"*";
+            }
+            else
+            {
+                cout<<" ";
+            }
+        }
+
+        cout<<endl;
+    }
+    //lower
+    for (int i = 4; i >= 1; i--)
+    for (int i = 3; i >= 1; i--)
+    {
+        for (int s = 4; s >= i; s--)
+        {
+            cout<<" ";
+        }
+        for (int j = 1; j <= 2*i-1 ; j++)
+        {
+            if (j==1  || j== 2*i-1)
+            {
+                cout<<"*";
+            }
+            else
+            {
+                cout<<" ";
+            }
+        }
+
+        cout<<endl;
+    }
+
+    return 0;
+ } 
