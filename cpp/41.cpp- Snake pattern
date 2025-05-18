@@ -60,3 +60,12 @@ int main() {
 
     return 0;
 }
+
+
+/*
+
+(m % 2 == 0)  are printed left to right 
+(m % 2 == 1)   are printed right to left
+  
+
+*/
