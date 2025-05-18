@@ -1,6 +1,8 @@
 
 /*
 
+ Right-angled triangle
+
 *
 **
 ***
